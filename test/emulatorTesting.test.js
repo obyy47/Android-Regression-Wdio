@@ -4,7 +4,7 @@ import AppPage from "../pages/AppPage.js";
 import AlertPage from "../pages/AlertPage.js";
 import ViewsPage from "../pages/ViewsPage.js";
 
-describe("API Demo Testing with POM", () => {
+describe("API Demo Testing", () => {
   it("Klik menu App", async () => {
     await HomePage.clickApp();
     expect(await AppPage.alertDialogs.isDisplayed()).to.equal(true);
